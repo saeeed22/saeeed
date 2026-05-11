@@ -5,7 +5,7 @@ export const site = {
   tagline: "Web, WordPress & Agentic AI Engineer",
   bio: "Fresh Software Engineering graduate from KU, based in Karachi. I build fast websites, ship WordPress experiences, and craft agentic AI systems and chatbots.",
   location: "Karachi, Pakistan",
-  email: "testwithsaeed@gmail.com",
+  email: "workwithsaeed251@gmail.com",
   socials: {
     github: "https://github.com/saeeed22",
     linkedin: "https://www.linkedin.com/in/saeeeed/",
