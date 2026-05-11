@@ -4,6 +4,7 @@ import GitHub from "next-auth/providers/github";
 const ALLOWED_GITHUB_LOGIN = "saeeed22";
 
 export const { handlers, auth, signIn, signOut } = NextAuth({
+  trustHost: true,
   providers: [GitHub],
   callbacks: {
     async signIn({ profile }) {
