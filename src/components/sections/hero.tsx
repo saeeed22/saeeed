@@ -78,7 +78,7 @@ export function Hero() {
         <div className="mt-10 grid md:grid-cols-2 gap-10 items-end">
           <p className={cn("hero-fade max-w-xl text-lg md:text-xl text-muted-foreground text-pretty")}>
             I&apos;m <span className="text-foreground font-medium">{site.name}</span> — a software engineer
-            crafting fast websites, headless WordPress, and agentic AI products.
+            crafting fast websites and agentic AI products.
           </p>
           <div className="hero-fade flex flex-wrap gap-3 md:justify-end">
             <Link

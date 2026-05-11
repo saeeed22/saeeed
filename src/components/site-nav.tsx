@@ -28,10 +28,11 @@ export function SiteNav() {
 
   useEffect(() => {
     if (!isHome) return;
+    type NavId = (typeof navLinks)[number]["id"];
     const ids = navLinks.map((l) => l.id);
     const sections = ids
       .map((id) => ({ id, el: document.getElementById(id) }))
-      .filter((s): s is { id: string; el: HTMLElement } => s.el !== null);
+      .filter((s): s is { id: NavId; el: HTMLElement } => s.el !== null);
 
     const onScroll = () => {
       const y = window.scrollY + window.innerHeight * 0.35;

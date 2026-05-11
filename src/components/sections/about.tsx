@@ -80,10 +80,10 @@ export function About() {
 
         <div className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-6 border-t border-border pt-10">
           {[
-            { k: "Years coding", v: "4+" },
-            { k: "Projects shipped", v: "20+" },
-            { k: "Stacks fluent in", v: "6" },
-            { k: "Coffee per day", v: "∞" },
+            { k: "Years coding", v: "1.5+" },
+            { k: "Projects shipped", v: "6+" },
+            { k: "Stacks fluent in", v: "4" },
+            { k: "Coffee per day", v: "0" },
           ].map((s) => (
             <div key={s.k}>
               <p className="font-display text-4xl md:text-5xl font-semibold">{s.v}</p>
